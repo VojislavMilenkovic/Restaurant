@@ -1,6 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-
-body{
+@import url(responsive.css);
+html{
+  height: 100%;
+}
+body {
   font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+.parallax{
+  height: 90vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.navbar .navbar-toggler span {
+  width: 30px;
+  height: 3px;
+  display: block;
+  margin-bottom: 5px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.navbar-toggler span:last-of-type {
+  margin-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 20px;
+  line-height: 19px;
+  letter-spacing: 0.46px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.welcome-section-title {
+  font-size: 40px;
+}
+
+.welcome-section-text {
+  font-size: 20px;
+  color: darkgray;
+}
+
+.menu-item-text {
+  color: darkgray;
+  font-size: 20px;
+}
+
+.menu-item-price {
+  font-size: 22px;
+  color: darkslategray;
+}
+
+.last-section-title{
+  color: darkgray;
+}
+
+.last-section-text {
+  font-size: 20px;
+  color: darkgray;
+}
+
+.last-section-btn{
+  border: 1px solid darkgray;
+  background: transparent;
+  color: darkgray;
+  cursor: pointer;
+  font-size: 20px;
 }
