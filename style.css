@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url(responsive.css);
-html{
+html {
   height: 100%;
 }
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -19,16 +20,13 @@ p {
   font-weight: 400;
 }
 
-.parallax{
+.parallax {
   height: 90vh;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .navbar .navbar-toggler span {
   width: 30px;
@@ -76,7 +74,7 @@ p {
   color: darkslategray;
 }
 
-.last-section-title{
+.last-section-title {
   color: darkgray;
 }
 
@@ -85,10 +83,82 @@ p {
   color: darkgray;
 }
 
-.last-section-btn{
+.last-section-btn {
   border: 1px solid darkgray;
   background: transparent;
   color: darkgray;
   cursor: pointer;
   font-size: 20px;
+}
+
+/* ABOUT PAGE */
+
+.about-section-description {
+  font-size: 20px;
+}
+
+/* STAFF SECTION */
+
+.staff-name {
+  font-size: 30px;
+  color: rgb(97, 97, 245);
+  font-weight: 400;
+}
+
+.staff-position {
+  font-size: 25px;
+  color: crimson;
+  font-weight: 400;
+}
+
+.staff-info {
+  font-size: 18px;
+}
+
+.social a .fab {
+  padding: 5px;
+}
+
+.social a {
+  color: #000;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.social a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.background-section {
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.drinks-section .fas {
+  font-size: 50px;
+  color: darkgray;
+}
+
+.drink-description {
+  font-size: 20px;
+}
+
+.drink-button {
+  font-size: 20px;
+  border: none;
+}
+
+.history-section-title{
+  font-weight: 400;
+  font-size: 35px;
+  color: darkgray;  
+}
+
+.history-section-text{
+  font-size: 15px;
+  color: darkgray;
 }
