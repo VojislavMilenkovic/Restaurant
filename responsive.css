@@ -124,6 +124,21 @@
   .drink-button {
     font-size: 25px !important;
   }
+  /* CONTACT PAGE */
+  .contact-info-text {
+    font-size: 25px !important;
+  }
+  .contact-section .fas {
+    font-size: 25px !important;
+    margin-right: 20px !important;
+  }
+  .contact-data {
+    font-size: 25px !important;
+  }
+
+  .contact-social a{
+    font-size: 25px !important;
+  }
 }
 
 @media(min-width: 1200px) {

@@ -152,13 +152,55 @@ p {
   border: none;
 }
 
-.history-section-title{
+.history-section-title {
   font-weight: 400;
   font-size: 35px;
-  color: darkgray;  
+  color: darkgray;
 }
 
-.history-section-text{
+.history-section-text {
   font-size: 15px;
   color: darkgray;
+}
+
+.contact-info-title {
+  color: darkgray;
+  font-weight: 400;
+}
+
+.contact-info-text {
+  font-size: 20px;
+}
+
+.contact-section .fas {
+  color: darkgreen;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.contact-data {
+  color: darkgray;
+  font-size: 20px;
+}
+
+.contact-social a {
+  font-size: 20px;
+  color: darkgrey;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 40vh;
+  
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 30px 0;
 }

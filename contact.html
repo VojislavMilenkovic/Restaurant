@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Vojislav Milenkovic">
+
+  <title>Simple House Restaurant</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header style="background-image: url(img/simple-house-01.jpg);" class="mb-4 parallax">
+    <div class="container">
+      <nav class='bottom-position'>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/simple-house-logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu"
+            aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+          </div>
+        </nav>
+      </nav>
+    </div>
+  </header>
+  <!--Header Ends-->
+  <main>
+    <!--About Section Starts-->
+    <section class="about-section py-5">
+      <div class="container">
+        <div class="about-section-header mb-5">
+          <h1 class="about-section-headline text-center mb-5">Contact Page</h1>
+          <p class="about-section-description text-center">
+            It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking
+            at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            as opposed to using 'Content here, content here', making it look like readable English.
+          </p>
+        </div>
+    </section>
+    <!--About Section Starts-->
+
+    <!-- Contact Section Starts -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="row justify-content-between">
+          <!--Contact From Starts-->
+          <div class="col-12 mb-4 col-lg-6 mb-lg-0">
+            <div class="mb-3 form-group">
+              <input type="text" name="name" id="name" value="" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="mb-3 form-group">
+              <input type="email" name="email" id="email" value="" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="mb-3 form-group">
+              <textarea name="" id="" cols="30" rows="10" class="form-control">Message</textarea>
+            </div>
+            <div>
+              <button class="btn-success px-5 py-2 rounded-pill">Send</button>
+            </div>
+          </div>
+          <!--Contact From Ends-->
+          <!--Contact Info Starts-->
+          <div class="col-12 mb-4 col-lg-5">
+            <h2 class="contact-info-title mb-4">Our Adress</h2>
+            <p class="contact-info-text mb-4">180 Orci varius natoque penatibus et magnis dis parturient montes,
+              nascetur
+              ridiculus mus 10550
+            </p>
+            <div class='mb-3'>
+              <a class="fas fa-phone" href="tel: 123-456-78"></a>
+              <a href="tel: 123-456-78" class='contact-data'>123-456-78</a>
+            </div>
+            <div class='mb-5'>
+              <a class="fas fa-envelope" href="tel: 123-456-78"></a>
+              <a href="tel: 123-456-78" class='contact-data'>info@company.co</a>
+            </div>
+            <div class="contact-social">
+              <a href="https://facebook.com"><i class="fab fa-facebook mr-2 mr-lg-4"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter mr-2 mr-lg-4"></i></a>
+              <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <!--Contact Info Ends-->
+          <!--Contact Map Starts-->
+          <div class="col-12 text-center map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9926.819414384394!2d-0.11948197713180919!3d51.53697306012787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2srs!4v1633605642268!5m2!1sen!2srs"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <!--Contact Map Ends-->
+
+        </div>
+      </div>
+    </section> <!-- Contact Section Starts -->
+
+  </main>
+  <!--Main Ends-->
+  <footer class="py-5">
+    <div class="container">
+      <div class="content text-center">
+        <p class="copy">Copyright &copy; 2020 Simple House | Design: TemplateMo</p>
+      </div>
+    </div>
+  </footer>
+  <!--Footer Ends-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/3b970328d3.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
