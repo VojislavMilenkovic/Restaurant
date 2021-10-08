@@ -15,6 +15,9 @@
 </head>
 
 <body>
+  <!-- Page Transition -->
+  <div id='transition' class="transition-2 is-active"></div>
+
   <header style="background-image: url(img/simple-house-01.jpg);" class="mb-4 parallax">
     <div class="container">
       <nav class='bottom-position'>
@@ -68,18 +71,24 @@
         <div class="row justify-content-between">
           <!--Contact From Starts-->
           <div class="col-12 mb-4 col-lg-6 mb-lg-0">
-            <div class="mb-3 form-group">
-              <input type="text" name="name" id="name" value="" class="form-control" placeholder="Your Name">
-            </div>
-            <div class="mb-3 form-group">
-              <input type="email" name="email" id="email" value="" class="form-control" placeholder="Your Email">
-            </div>
-            <div class="mb-3 form-group">
-              <textarea name="" id="" cols="30" rows="10" class="form-control">Message</textarea>
-            </div>
-            <div>
-              <button class="btn-success px-5 py-2 rounded-pill">Send</button>
-            </div>
+            <form>
+              <div class="message-sent"></div>
+              <div class="mb-3 form-group">
+                <input type="text" name="name" id="name" value="" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="name-error-wrapper"></div>
+              <div class="mb-3 form-group">
+                <input type="email" name="email" id="email" value="" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="email-error-wrapper "></div>
+              <div class="mb-3 form-group">
+                <textarea name="" id="textarea" cols="30" rows="10" class="form-control" placeholder="Your Message"></textarea>
+              </div>
+              <div class="message-error-wrapper "></div>
+              <div>
+                <button id='send-button' type="submit" class="btn-success px-5 py-2 rounded-pill">Send</button>
+              </div>
+            </form>
           </div>
           <!--Contact From Ends-->
           <!--Contact Info Starts-->
@@ -106,7 +115,8 @@
           <!--Contact Info Ends-->
           <!--Contact Map Starts-->
           <div class="col-12 text-center map-responsive">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9926.819414384394!2d-0.11948197713180919!3d51.53697306012787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2srs!4v1633605642268!5m2!1sen!2srs"
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9926.819414384394!2d-0.11948197713180919!3d51.53697306012787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2srs!4v1633605642268!5m2!1sen!2srs"
               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
           <!--Contact Map Ends-->
@@ -120,7 +130,7 @@
   <footer class="py-5">
     <div class="container">
       <div class="content text-center">
-        <p class="copy">Copyright &copy; 2020 Simple House | Design: TemplateMo</p>
+        <p class="copy">Copyright &copy; 2021 Lorem Ipsum | Lorem ipsum dolor sit amet</p>
       </div>
     </div>
   </footer>

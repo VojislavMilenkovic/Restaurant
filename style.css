@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url(transition.css);
 @import url(responsive.css);
 html {
   height: 100%;
@@ -172,6 +173,45 @@ p {
   font-size: 20px;
 }
 
+.name-error-wrapper {
+  border: none;
+  padding: 0px 10px;
+  color: red;
+  font-size: 15px;
+  margin-bottom: 3px;
+  display: none;
+}
+
+.email-error-wrapper {
+  border: none;
+  padding: 0px 10px;
+  color: red;
+  font-size: 15px;
+  margin-bottom: 3px;
+  display: none
+}
+
+.message-error-wrapper {
+  border: none;
+  padding: 0px 10px;
+  color: red;
+  font-size: 15px;
+  margin-bottom: 3px;
+  display: none
+}
+
+.message-sent{
+  border: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: green;
+  font-size: 15px;
+  margin-bottom: 3px;
+  display: none
+  
+}
+
 .contact-section .fas {
   color: darkgreen;
   font-size: 20px;
@@ -193,7 +233,6 @@ p {
   padding-bottom: 56.25%;
   position: relative;
   height: 40vh;
-  
 }
 
 .map-responsive iframe {
